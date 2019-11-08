@@ -67,7 +67,7 @@ const arrayList = {
 		for(let i = 0; i < this.length(); i++){
 			str +=this[i] + ", ";
 		}
-		str = str.substring(0, str.length - 1);
+		str = str.substring(0, str.length - 2);
 		return str;
 	},
 
